@@ -70,6 +70,7 @@ using namespace std;
 // Improtant:
 // "using namespace std;" compulsory nahi hai.
 // Ye sirf std:: ko baar-baar likhne se bachata hai.
+// ; is statement terminater
 //--------------------------------------------------------------
 
 
