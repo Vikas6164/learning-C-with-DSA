@@ -54,6 +54,21 @@ int main()
 // cout << setprecision(13) << "PI2 = " << PI2 << endl;
 
 
+//input
+// int age; // grabege value
+// cout << "Enter your age : ";
+// cin >> age ;
+// cout << "yout age is " <<age << endl;
+
+//Sum of two number
+int a,b;
+cin >>a;
+cin >> b;
+
+int sum = a+b;
+
+cout << sum << endl;
+
     return 0;
     
 }
