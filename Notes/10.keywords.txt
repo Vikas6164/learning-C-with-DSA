@@ -1,0 +1,247 @@
+====================================================================
+                         C++ KEYWORDS
+====================================================================
+
+DEFINITION:
+-----------
+Keywords are reserved words in C++ that have a predefined/special
+meaning for the compiler.
+
+We CANNOT normally use a keyword as:
+    - Variable name
+    - Function name
+    - Class name
+    - Object name
+    - Any other identifier
+
+Example:
+    int age = 20;
+
+    int  -> keyword
+    age  -> identifier
+    20   -> literal
+
+
+====================================================================
+                    COMPLETE C++ KEYWORD LIST
+====================================================================
+
+C++26:
+
+alignas        alignof        and             and_eq
+asm            auto           bitand          bitor
+bool           break          case            catch
+char           char8_t        char16_t        char32_t
+class          compl          concept         const
+consteval      constexpr      constinit       const_cast
+continue       contract_assert
+co_await       co_return      co_yield        decltype
+default        delete         do              double
+dynamic_cast   else           enum            explicit
+export         extern         false           float
+for            friend         goto            if
+inline         int            long            mutable
+namespace      new            noexcept        not
+not_eq         nullptr        operator        or
+or_eq          private        protected       public
+reinterpret_cast
+register       requires       return          short
+signed         sizeof         static          static_assert
+static_cast    struct         switch          template
+this           thread_local   throw           true
+try            typedef        typeid          typename
+union          unsigned       using           virtual
+void           volatile       wchar_t         while
+xor            xor_eq
+
+
+====================================================================
+                         IMPORTANT GROUPS
+====================================================================
+
+1. DATA TYPE KEYWORDS
+---------------------
+bool
+char
+char8_t
+char16_t
+char32_t
+double
+float
+int
+long
+short
+signed
+unsigned
+void
+wchar_t
+
+
+2. DECISION / CONDITIONAL KEYWORDS
+----------------------------------
+if
+else
+switch
+case
+default
+
+
+3. LOOP KEYWORDS
+----------------
+for
+while
+do
+
+
+4. JUMP / CONTROL FLOW KEYWORDS
+--------------------------------
+break
+continue
+goto
+return
+
+
+5. CLASS / OOP KEYWORDS
+-----------------------
+class
+struct
+union
+public
+private
+protected
+friend
+this
+virtual
+explicit
+
+
+6. MEMORY / OBJECT MANAGEMENT
+-----------------------------
+new
+delete
+nullptr
+static
+mutable
+
+
+7. TYPE CASTING KEYWORDS
+------------------------
+const_cast
+static_cast
+dynamic_cast
+reinterpret_cast
+
+
+8. FUNCTION / DECLARATION KEYWORDS
+-----------------------------------
+inline
+extern
+typedef
+using
+auto
+decltype
+
+
+9. CONSTANT / COMPILE-TIME KEYWORDS
+------------------------------------
+const
+constexpr
+consteval
+constinit
+static_assert
+
+
+10. NAMESPACE / ORGANIZATION
+-----------------------------
+namespace
+using
+
+
+11. ERROR / EXCEPTION HANDLING
+------------------------------
+try
+catch
+throw
+noexcept
+
+
+12. BOOLEAN VALUES
+------------------
+true
+false
+
+
+13. TEMPLATES / GENERIC PROGRAMMING
+-----------------------------------
+template
+typename
+concept
+requires
+
+
+14. OPERATOR-RELATED KEYWORDS
+-----------------------------
+operator
+and
+and_eq
+bitand
+bitor
+compl
+not
+not_eq
+or
+or_eq
+xor
+xor_eq
+
+
+15. OTHER / LANGUAGE CONTROL
+----------------------------
+asm
+alignas
+alignof
+export
+import-related language features
+thread_local
+register
+volatile
+co_await
+co_return
+co_yield
+contract_assert
+
+====================================================================
+                  KEYWORD vs IDENTIFIER
+====================================================================
+
+KEYWORD:
+    Reserved by C++
+    Has predefined meaning
+    Cannot normally be used as a name
+
+IDENTIFIER:
+    Name given by programmer
+    Used for variables, functions, classes, etc.
+
+Example:
+
+    int marks = 90;
+
+    int      -> KEYWORD
+    marks    -> IDENTIFIER
+    90       -> LITERAL
+
+====================================================================
+                         IMPORTANT NOTE
+====================================================================
+
+• C++ keywords are reserved words.
+• Keywords are case-sensitive.
+
+For example:
+
+    int     -> keyword
+    Int     -> NOT the keyword `int`
+    INT     -> NOT the keyword `int`
+
+However, `Int` and `INT` can be identifiers.

@@ -330,40 +330,6 @@ using namespace std;
 //
 // ============================================================================
 
-
-// ============================================================================
-//                  QUICK REVISION
-// ============================================================================
-//
-// #include  -> header file include
-//
-// #define   -> macro define
-//
-// #undef    -> macro remove
-//
-// #if       -> condition check
-//
-// #ifdef    -> macro defined hai?
-//
-// #ifndef   -> macro defined nahi hai?
-//
-// #elif     -> else-if condition
-//
-// #else     -> alternate code
-//
-// #endif    -> conditional block end
-//
-// #pragma   -> compiler-specific instruction
-//
-// #error    -> custom compilation error
-//
-// #warning  -> custom warning (commonly compiler extension)
-//
-// #line     -> line/file information change
-//
-// ============================================================================
-
-
 int main()
 {
     cout << "Preprocessor Directives";

@@ -210,7 +210,7 @@ int age;
 
 
 // ============================================================================
-//              DECLARATION vs DEFINITION
+//                      DECLARATION vs DEFINITION
 // ============================================================================
 //
 // Example:
@@ -295,82 +295,3 @@ int main()
 
     return 0;
 }
-
-
-// ============================================================================
-//                         QUICK REVISION
-// ============================================================================
-//
-// NAMESPACE
-// ---------
-// Names ko organize karta hai aur name conflicts se bachata hai.
-//
-// Example:
-//
-//     std::cout
-//
-// std = namespace
-//
-//
-//
-// DECLARATION
-// -----------
-// Compiler ko batata hai ki koi entity exist karti hai.
-//
-// Example:
-//
-//     int add(int, int);
-//
-//
-//
-// DEFINITION
-// ----------
-// Entity ka actual implementation/create karta hai.
-//
-// Example:
-//
-//     int add(int a, int b)
-//     {
-//         return a + b;
-//     }
-//
-//
-//
-// VERY SIMPLE WAY TO REMEMBER:
-//
-// Declaration = "Kya exist karta hai?"
-// Definition  = "Actually kya hai / kaise kaam karta hai?"
-//
-// ============================================================================
-
-
-// ============================================================================
-// IMPORTANT EXAMPLES
-// ============================================================================
-//
-// 1. Variable:
-//
-//     extern int x;       -> Declaration
-//     int x = 10;         -> Definition
-//
-//
-// 2. Function:
-//
-//     int add(int, int); -> Declaration
-//
-//     int add(int a, int b)   -> Definition
-//     {
-//         return a + b;
-//     }
-//
-//
-// 3. Namespace:
-//
-//     namespace MySpace
-//     {
-//         int x = 10;
-//     }
-//
-//     MySpace::x
-//
-// ============================================================================ 

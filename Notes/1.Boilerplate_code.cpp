@@ -51,7 +51,7 @@ using namespace std;
 // 2. using namespace std;
 //--------------------------------------------------------------
 //
-// C++ ki standard libraru ke objects/functions ka namespace
+// C++ ki standard library ke objects/functions ka namespace
 // "std" hota hai.
 //
 // Agar hum "using namespace std;" likhte hain,
@@ -60,7 +60,7 @@ using namespace std;
 //without using namespace std:
 //
 // std::cout << "Hello";
-// std::cin >> ageg;
+// std::cin >> age;
 //
 //with using namespace std:
 //
@@ -80,14 +80,9 @@ using namespace std;
 //
 // main() = program ka starting point.
 //
-// C++ program execution grnrtally main() function se start hota hai.
+// C++ program execution genrally main() function se start hota hai.
 //
 // int = main() function ek integer value return karega.
-//
-// Isliye:
-//
-// int main()
-//
 //--------------------------------------------------------------
 
 
@@ -97,9 +92,8 @@ using namespace std;
 //
 // Curly braces { } ek block ko define karti hain.
 //
-// main() ke andar jp code hai, woh in braces ke andar likha
+// main() ke andar jo code hai, woh in braces ke andar likha
 // jata hai.
-//
 //--------------------------------------------------------------
 
 
@@ -115,12 +109,6 @@ using namespace std;
 // 0 = successful execution.
 //
 //--------------------------------------------------------------
-
-
-//==============================================================
-//			COMPLETE EXAMPLE
-//==============================================================
-
 
 int main()
 {

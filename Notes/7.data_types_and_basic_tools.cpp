@@ -178,36 +178,6 @@ long double preciseValue = 123.456789L;
 
 
 // ============================================================================
-//                  QUICK DATA TYPE REVISION
-// ============================================================================
-//
-// bool          -> true / false
-//
-// char          -> single character
-//
-// short         -> small integer
-//
-// int           -> integer
-//
-// long          -> larger integer type
-//
-// long long     -> very large integer type
-//
-// float         -> decimal number
-//
-// double        -> decimal number, generally more precision
-//
-// long double   -> extended floating-point precision
-//
-// void          -> no value
-//
-// nullptr_t     -> type of nullptr
-//
-// ============================================================================
-
-
-
-// ============================================================================
 //                          << endl
 // ============================================================================
 //
@@ -305,7 +275,6 @@ cout << sizeof(number) << endl;
 // Output generally:
 //
 //     3.142
-//
 //
 //
 // IMPORTANT:

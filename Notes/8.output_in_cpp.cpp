@@ -1,6 +1,6 @@
 /*
 ============================================================
-              OUTPUT IN C++
+                    OUTPUT IN C++
 ============================================================
 
 Output ka matlab:
@@ -19,7 +19,6 @@ cout ka full form:
 
 Isliye:
     #include <iostream>
-
 
 ============================================================
 1. BASIC OUTPUT
@@ -419,81 +418,4 @@ Isme:
     cout  -> output stream
     <<    -> insertion operator
     "Hello" -> data
-
-
-============================================================
-15. COMMON MISTAKES
-============================================================
-
-❌ Wrong:
-    cout "Hello";
-
-Because `<<` missing hai.
-
-✅ Correct:
-    cout << "Hello";
-
-
-❌ Wrong:
-    cout >> "Hello";
-
-`>>` normally input ke liye `cin` ke saath use hota hai.
-
-✅ Output:
-    cout << "Hello";
-
-✅ Input:
-    cin >> age;
-
-
-============================================================
-QUICK REVISION
-============================================================
-
-OUTPUT IN C++:
-
-1. Output ke liye:
-       cout
-
-2. `cout` ke liye:
-       #include <iostream>
-
-3. Output operator:
-       <<
-
-4. New line:
-       endl
-       OR
-       '\n'
-
-5. Example:
-       cout << "Hello";
-
-6. Variable print:
-       cout << age;
-
-7. Text + variable:
-       cout << "Age: " << age;
-
-8. Calculation:
-       cout << 10 + 20;
-
-9. Boolean:
-       cout << boolalpha << true;
-
-
-============================================================
-ONE-LINE FORMULA
-============================================================
-
-cout << data;
-
-Meaning:
-
-"data ko output stream ke through screen par bhejo."
-
-
-============================================================
-                    END
-============================================================
-*/
+    */
